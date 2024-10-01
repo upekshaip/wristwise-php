@@ -1,0 +1,54 @@
+* {
+    color: white;
+}
+
+.container {
+    padding: 50px;
+}
+
+input,
+textarea {
+    border: none;
+    background-color: rgb(65, 64, 64, 0);
+    width: 100%;
+}
+
+textarea {
+    padding: 0px !important;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+}
+
+::placeholder {
+    color: gray;
+}
+
+hr {
+    background-color: white;
+}
+
+.side1 {
+    background-color: rgba(65, 64, 64, 0);
+}
+
+.input,
+.info {
+    padding: 50px;
+}
+
+.side2 {
+    /* background-color: rgb(37, 36, 36); */
+    margin: 5px;
+    border-left: 2px solid var(--color-border-default);
+}
+
+.side2_p {
+    /* margin: 50px; */
+}
+
+textarea {
+    font-size: small;
+}

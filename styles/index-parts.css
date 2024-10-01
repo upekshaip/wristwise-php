@@ -1,0 +1,98 @@
+.carosel-container {
+    padding: 10px;
+    width: 85%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-div {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    height: auto;
+}
+
+.text-table-div {
+    padding: 10px;
+}
+
+.social-content {
+    height: 30px;
+    width: 30px;
+    mask-position: center;
+    -webkit-mask-position: center;
+    transition: ease 0.5s;
+}
+
+.fb {
+    background-color: white;
+    mask: url(../resources/icons/icons8-facebook-50.svg);
+    -webkit-mask: url(../resources/icons/icons8-facebook.svg) no-repeat;
+}
+
+.yt {
+    background-color: white;
+    mask: url(../resources/icons/icons8-youtube.svg);
+    -webkit-mask: url(../resources/icons/icons8-youtube.svg) no-repeat;
+}
+
+.github {
+    background-color: white;
+    mask: url(../resources/icons/icons8-github.svg);
+    -webkit-mask: url(../resources/icons/icons8-github.svg) no-repeat;
+}
+
+.insta {
+    background-color: white;
+    mask: url(../resources/icons/icons8-instagram.svg);
+    -webkit-mask: url(../resources/icons/icons8-instagram.svg) no-repeat;
+}
+
+.ln {
+    background-color: white;
+    mask: url(../resources/icons/icons8-linkedin.svg);
+    -webkit-mask: url(../resources/icons/icons8-linkedin.svg) no-repeat;
+}
+
+.fb:hover {
+    background-color: gold;
+}
+
+.yt:hover {
+    background-color: gold;
+}
+
+.github:hover {
+    background-color: gold;
+}
+
+.insta:hover {
+    background-color: gold;
+}
+
+.ln:hover {
+    background-color: gold;
+}
+
+.social-table-th {
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    height: auto;
+}
+
+.social-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
